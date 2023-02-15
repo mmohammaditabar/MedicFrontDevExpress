@@ -18,7 +18,4 @@ export function putData(url,payload,config={}){
 export function deleteData(url,config={}){
     return axios.delete(url,config)
 }
-// const fetchData = async () => {
-//   const response = await axios.get('http://localhost:42163/api/');
-//   return response.data;
-// };
+///////
