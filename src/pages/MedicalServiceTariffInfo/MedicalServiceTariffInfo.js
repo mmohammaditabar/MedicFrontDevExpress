@@ -11,4 +11,4 @@ function MedicalServiceTariffInfo() {
 }
 
 export default MedicalServiceTariffInfo;
-//p
+//pff
