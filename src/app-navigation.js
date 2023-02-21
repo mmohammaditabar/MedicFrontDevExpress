@@ -13,7 +13,7 @@ export const navigation = [
   {
     text: 'Employee',
     path: '/employee',
-    icon: 'home'
+    icon: 'about'
   },
   {
     text: 'MedicalServiceTariff',

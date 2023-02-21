@@ -1,6 +1,6 @@
 import React from 'react';
 import DynamicDataGrid from '../../Base/Components/Grid/DynamicDataGrid';
-import { columnsMedicalService,getFormItems } from './Model/modelMedication';
+import { columnsMedication,getFormItems } from './Model/modelMedication';
 
 
 
