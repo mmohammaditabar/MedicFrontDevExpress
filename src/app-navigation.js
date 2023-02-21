@@ -16,6 +16,11 @@ export const navigation = [
     icon: 'home'
   },
   {
+    text: 'MedicalServiceTariff',
+    path: '/MedicalServiceTariff',
+    icon: 'home'
+  },
+  {
     text: 'Patient',
     path: '/patient',
     icon: 'home'

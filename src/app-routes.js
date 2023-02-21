@@ -3,6 +3,7 @@ import { withNavigationWatcher } from './contexts/navigation';
 import DrInfo from './pages/DrInfo/DrInfo';
 import EmployeeInfo from './pages/EmployeeInfo/EmployeeInfo';
 import PatientInfo from './pages/PatientInfo/PatientInfo';
+import MedicalServiceTariffInfo from './pages/MedicalServiceTariffInfo/MedicalServiceTariffInfo';
 
 const routes = [
     {
@@ -13,7 +14,11 @@ const routes = [
         path: '/employee',
         element: EmployeeInfo
     },
-       {
+    {
+        path: '/MedicalServiceTariff',
+        element: MedicalServiceTariffInfo
+    },
+    {
         path: '/patient',
         element: PatientInfo
     },
