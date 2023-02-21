@@ -4,6 +4,7 @@ import DrInfo from './pages/DrInfo/DrInfo';
 import EmployeeInfo from './pages/EmployeeInfo/EmployeeInfo';
 import PatientInfo from './pages/PatientInfo/PatientInfo';
 import MedicalServiceTariffInfo from './pages/MedicalServiceTariffInfo/MedicalServiceTariffInfo';
+import MedicationInfo from './pages/MedicationInfo/MedicationInfo';
 
 const routes = [
     {
@@ -17,6 +18,10 @@ const routes = [
     {
         path: '/MedicalServiceTariff',
         element: MedicalServiceTariffInfo
+    },
+    {
+        path: '/MedicationInfo',
+        element: MedicationInfo
     },
     {
         path: '/patient',
